@@ -1,0 +1,18 @@
+header {
+  position: realtive;
+   background-color: @headerColor;
+   height: @contentHeight;
+   .rounded(15px);
+   h1 {position: relative;
+   top: 20px; 
+   left: 30px;}
+}
+  @media only screen and (max-device-width :  @smallSmartphone), only screen and  (max-width : @smallSmartphone ){
+
+header { height: 100px;
+}
+h1 {
+ 
+  display:none;
+}
+}
